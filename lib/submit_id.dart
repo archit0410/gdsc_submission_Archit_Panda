@@ -79,7 +79,12 @@ class _SubmitidState extends State<Submitid> {
                           width: 300,
                           height: 70,
                           child: ElevatedButton(
-                            onPressed: () {},
+                            onPressed: () {
+
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => Entertheid()));
+
+
+                            },
                             child: Text('B'),
                           )
                       ))),

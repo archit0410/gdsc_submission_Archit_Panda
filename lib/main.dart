@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gdsc_project/enterid.dart';
 import 'getid.dart';
 import 'submit_id.dart';
 
@@ -56,7 +57,7 @@ class Home extends StatelessWidget {
                             onPressed: () {
                               Navigator.push(
                                   context,
-                                  MaterialPageRoute(builder: (context) => Submitid())
+                                  MaterialPageRoute(builder: (context) => Entertheid())
                               );
                             },
                             child: Text('Submit ID')),
